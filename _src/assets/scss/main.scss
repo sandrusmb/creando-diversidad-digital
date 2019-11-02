@@ -1,8 +1,7 @@
 @import "core/variables";
 @import "layout/header";
 @import "pages/home";
-
-body {
+@import "layout/footer" body {
   margin: 0px;
   box-sizing: border-box;
   font-family: $font;
