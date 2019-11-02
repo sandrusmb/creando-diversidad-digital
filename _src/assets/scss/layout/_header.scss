@@ -18,17 +18,26 @@
     margin: 0px;
     padding-left: 0px;
     padding-bottom: 13px;
-    color: $menuColor;
 
     &__blog {
       padding-right: 10px;
       text-transform: uppercase;
       font-size: $size;
     }
+
     &__contacto {
       padding-left: 10px;
       text-transform: uppercase;
       font-size: $size;
+    }
+
+    a {
+      text-decoration: none;
+      color: $menuColor;
+
+      &:hover {
+        color: orange;
+      }
     }
   }
 }
