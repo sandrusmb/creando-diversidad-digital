@@ -1,0 +1,16 @@
+.main {
+  width: 100vw;
+  height: 100vh;
+  border: 1px solid orange;
+  background: $pageColor;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .main__h1 {
+    color: white;
+    border: 1px solid green;
+    width: 200px;
+    text-align: center;
+    text-transform: capitalize;
+  }
+}
