@@ -1,5 +1,4 @@
 .footer {
-  border: 1px solid red;
   position: fixed;
   bottom: 0px;
   height: 50px;
@@ -10,7 +9,15 @@
   justify-content: center;
   background: white;
 
+  a {
+    text-decoration: none;
+  }
+
   .fab {
     color: $pageColor;
+    padding: 10px;
+    &:hover {
+      color: orange;
+    }
   }
 }
