@@ -1,8 +1,5 @@
 @import "core/variables";
+@import "pages/index";
 @import "layout/header";
 @import "pages/home";
-@import "layout/footer" body {
-  margin: 0px;
-  box-sizing: border-box;
-  font-family: $font;
-}
+@import "layout/footer";
