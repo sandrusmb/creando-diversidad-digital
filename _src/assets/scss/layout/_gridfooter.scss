@@ -1,0 +1,18 @@
+footer {
+  border: 1px solid red;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 60px 60px 120px;
+
+  p {
+    background: pink;
+  }
+
+  img {
+    background: pink;
+  }
+
+  ul {
+    background: pink;
+  }
+}
