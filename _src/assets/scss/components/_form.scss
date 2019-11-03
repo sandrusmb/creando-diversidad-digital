@@ -5,22 +5,21 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  padding-top: 30px;
 
   input {
     width: 80%;
-    height: 2em;
     margin: 0px;
     border: 0px;
     padding-left: 5px;
     box-sizing: border-box;
-    @media all and (min-width: 768px) {
-      height: 4em;
-    }
+    font-size: 18px;
+    height: 2em;
   }
 
   .button {
     width: 80px;
-    background: coral;
+    background: yellow;
     margin-top: 20px;
     border-radius: 10px;
   }
@@ -29,7 +28,7 @@
     width: 80%;
     text-align: left;
     padding-top: 20px;
-    color: slategrey;
+    color: white;
     padding-bottom: 10px;
   }
 

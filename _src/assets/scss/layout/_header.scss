@@ -5,10 +5,12 @@
   position: fixed;
   width: 100vw;
   background: $letterColor;
+  box-sizing: border-box;
 
   @media all and (min-width: 768px) {
     flex-direction: row;
     justify-content: space-between;
+    padding: 20px 30px 20px 30px;
   }
 
   &__logo {
@@ -29,10 +31,6 @@
         }
       }
     }
-  }
-
-  @media all and (min-width: 768px) {
-    padding: 20px 0 20px 30px;
   }
 
   &__menu {
@@ -60,6 +58,7 @@
 
       @media all and (min-width: 768px) {
         padding-right: 30px;
+        border: 1px solid red;
       }
     }
 
