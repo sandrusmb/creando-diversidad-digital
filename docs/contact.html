@@ -32,17 +32,20 @@
             </nav>
         </header>
         <form class="form" action="https://formspree.io/mvopnvvo" method="POST">
-            <label for="name">nombre completo</label>
+            <label for="name">nombre completo*</label>
             <input placeholder="Jon Nieve" id="name" type="text"
             name="name" required />
-            <label for="email">correo electrónico</label>
-            <input placeholder="jonnieve@gmail.com" id="email"
-            type="email" name="email" required />
-            <label for="phone">teléfono</label>
-            <input placeholder="654321901" type="tel" name="phone"
-            required />
-            <label for="comments">mensaje</label>
-            <textarea id="comments" name="comments" rows="3" col="80"></textarea>
+            <div>
+                <label for="email">email*</label>
+                <input placeholder="jonnieve@gmail.com" id="email" type="email"
+                name="email" required />
+                <label class="tel" for="phone">teléfono</label>
+                <input placeholder="654321901" type="tel" name="phone"
+                required />
+            </div>
+            <label for="comments">mensaje*</label>
+            <textarea id="comments" name="comments" rows="10" col="80"
+            required></textarea>
             <input class="button" type="submit" value="enviar" />
         </form>
         <footer class="footer">
