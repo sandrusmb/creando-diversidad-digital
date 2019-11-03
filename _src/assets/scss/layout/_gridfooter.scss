@@ -18,4 +18,37 @@
 //   }
 
 footer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 67px 64px 120px;
+
+  p {
+    grid-column: span 3;
+    align-self: center;
+    justify-self: center;
+    border: 1px solid red;
+  }
+
+  nav {
+    grid-column: span 3;
+    align-self: center;
+    justify-self: center;
+    border: 1px solid red;
+
+    ul {
+      padding: 0;
+      text-align: center;
+
+      li {
+        list-style-type: none;
+      }
+    }
+  }
+}
+
+div {
+  border: 1px solid red;
+  grid-column: span 3;
+  align-self: center;
+  justify-self: center;
 }
