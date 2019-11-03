@@ -1,18 +1,21 @@
+// footer {
+//   border: 1px solid red;
+//   display: grid;
+//   grid-template-columns: 1fr 1fr 1fr;
+//   grid-template-rows: 1fr 1fr 1fr;
+//   grid-gap: 5px;
+
+//   div {
+//     background: pink;
+//     align-self: center;
+//     text-align: center;
+//   }
+
+//   ul {
+//     list-style: none;
+//     margin: 0px;
+//     padding: 0px;
+//   }
+
 footer {
-  border: 1px solid red;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 60px 60px 120px;
-
-  p {
-    background: pink;
-  }
-
-  img {
-    background: pink;
-  }
-
-  ul {
-    background: pink;
-  }
 }
