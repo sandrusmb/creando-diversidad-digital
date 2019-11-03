@@ -7,7 +7,7 @@
         />
         <meta http-equiv="X-UA-Compatible" content="ie=edge" />
         <title>Creando Diversidad Digital</title>
-        <link rel="stylesheet" href="./assets/css/main.css"
+        <link rel="stylesheet" href="./assets/css/contact.css"
         />
         <link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet"
         />
@@ -31,10 +31,21 @@
                 </ul>
             </nav>
         </header>
-        <main class="main">
-             <h1 class="main__h1">creando diversidad digital</h1>
-
-        </main>
+        <form action="https://formspree.io/mvopnvvo" method="POST">
+            <label for="name">nombre completo</label>
+            <input placeholder="Jon Nieve" id="name" type="text"
+            name="name" required/>
+            <label for="email">correo electrónico</label>
+            <input placeholder="jonnieve@gmail.com" id="email"
+            type="email" name="email" required/>
+            <label for="phone">Teléfono</label>
+            <input placeholder="654321901" type="tel" name="phone"
+            required />
+            <label for="comments">Mensaje</label>
+            <textarea id="comments" name="comments" rows="3" col="10>"
+            </textarea>
+                <input type="submit" value="enviar" />
+        </form>
         <footer class="footer">
             <div class="footer__container"> <a href="https://www.facebook.com" title="Síguenos" target="_blank"><i class="fab fa-facebook"></i></a>
 
