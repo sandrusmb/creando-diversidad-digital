@@ -19,14 +19,25 @@
 
 footer {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: 67px 64px 120px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+
+  @media all and (min-width: 768px) {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
 
   p {
     grid-column: span 3;
     align-self: center;
     justify-self: center;
     border: 1px solid red;
+
+    @media all and (min-width: 768px) {
+      grid-column: 1;
+      grid-row: 1;
+      justify-self: start;
+    }
   }
 
   nav {
@@ -34,6 +45,13 @@ footer {
     align-self: center;
     justify-self: center;
     border: 1px solid red;
+
+    @media all and (min-width: 768px) {
+      grid-column: 2;
+      grid-row: span 2;
+      justify-self: self-end;
+      align-self: center;
+    }
 
     ul {
       padding: 0;
@@ -44,11 +62,16 @@ footer {
       }
     }
   }
-}
+  div {
+    grid-column: span 3;
+    align-self: center;
+    justify-self: center;
+    border: 1px solid red;
 
-div {
-  border: 1px solid red;
-  grid-column: span 3;
-  align-self: center;
-  justify-self: center;
+    @media all and (min-width: 768px) {
+      grid-column: 1;
+      grid-row: 2;
+      justify-self: start;
+    }
+  }
 }
